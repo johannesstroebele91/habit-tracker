@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {HabitList} from "./HabitList";
+import {AddHabitForm} from "./AddHabitForm";
 
 const initialHabits: Array<Habit> = [
     {
@@ -34,7 +35,8 @@ const App: React.FC = () => {
     return (
         <React.Fragment>
             <HabitList habits={habits} toggleHabit={toggleHabit}/>
-x        </React.Fragment>
+            <AddHabitForm/>
+        </React.Fragment>
     );
 };
 

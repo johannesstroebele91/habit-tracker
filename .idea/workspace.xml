@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0f5996-af1b-47c3-8d6d-efc54ab18e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HabitList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddHabitForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Habit.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HabitItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HabitItem.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,7 @@
       <workItem from="1615024981588" duration="2987000" />
       <workItem from="1615029242051" duration="90000" />
       <workItem from="1615029367765" duration="9866000" />
-      <workItem from="1615190721137" duration="2325000" />
+      <workItem from="1615190721137" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="Setup React with TypeScript">
       <created>1615029144295</created>
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615037103165</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented separate component for list of habits">
+      <created>1615193824836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615193824836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +156,7 @@
     <MESSAGE value="Added files for setup React with TypeScript" />
     <MESSAGE value="Stripping down files" />
     <MESSAGE value="Implemented logic for displaying habits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented logic for displaying habits" />
+    <MESSAGE value="Implemented separate component for list of habits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented separate component for list of habits" />
   </component>
 </project>
