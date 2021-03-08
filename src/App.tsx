@@ -1,8 +1,7 @@
-import React from 'react';
-import {HabitItem} from "./HabitItem";
-import Habit from "./Habit";
+import React, {useState} from 'react';
+import {HabitList} from "./HabitList";
 
-const habits: Habit[] = [
+const initialHabits: Array<Habit> = [
     {
         text: 'Walk the dog',
         complete: false,
@@ -18,7 +17,25 @@ const habits: Habit[] = [
 ];
 
 const App: React.FC = () => {
-    return <HabitItem habit={habits[1]}/>;
+    const [habits, setHabits] = useState(initialHabits);
+
+    const toggleHabit: ToggleHabit = selectedHabit => {
+        const newHabits = habits.map(habit => {
+            if (habit === selectedHabit) {
+                return {
+                    ...habit,
+                    complete: !habit.complete
+                };
+            }
+            return habit;
+        });
+        setHabits(newHabits);
+    };
+    return (
+        <React.Fragment>
+            <HabitList habits={habits} toggleHabit={toggleHabit}/>
+x        </React.Fragment>
+    );
 };
 
 export default App;
