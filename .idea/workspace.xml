@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0f5996-af1b-47c3-8d6d-efc54ab18e04" name="Default Changelist" comment="Implemented basic styling">
-      <change afterPath="$PROJECT_DIR$/src/HabitMockData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    <list default="true" id="ef0f5996-af1b-47c3-8d6d-efc54ab18e04" name="Default Changelist" comment="Setup basic layout for list of habits like Trello &amp; Habitica">
+      <change afterPath="$PROJECT_DIR$/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddHabitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddHabitForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HabitItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HabitItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HabitList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HabitList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HabitMockData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/habit-mock-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddHabitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/add-habit-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HabitItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/habit-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HabitList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/habit-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +62,10 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/models" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +112,7 @@
       <workItem from="1615024981588" duration="2987000" />
       <workItem from="1615029242051" duration="90000" />
       <workItem from="1615029367765" duration="9866000" />
-      <workItem from="1615190721137" duration="9444000" />
+      <workItem from="1615190721137" duration="18911000" />
     </task>
     <task id="LOCAL-00001" summary="Setup React with TypeScript">
       <created>1615029144295</created>
@@ -165,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615195724015</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented basic styling and outsourced mocked data">
+      <created>1615212019076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615212019076</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +206,8 @@
     <MESSAGE value="Setup handler for change in the text input" />
     <MESSAGE value="Setup handler for submitting a new habit" />
     <MESSAGE value="Implemented basic styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic styling" />
+    <MESSAGE value="Implemented basic styling and outsourced mocked data" />
+    <MESSAGE value="Setup basic layout for list of habits like Trello &amp; Habitica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup basic layout for list of habits like Trello &amp; Habitica" />
   </component>
 </project>

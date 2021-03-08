@@ -1,5 +1,5 @@
 import React from "react";
-import {HabitItem} from "./HabitItem";
+import {HabitItem} from "./habit-item";
 
 interface HabitListProps {
     habits: Array<Habit>;
