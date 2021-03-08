@@ -15,10 +15,12 @@ export const AddHabitForm: React.FC<AddHabitFormProps> = ({addHabit}) => {
     const handleSubmit = (event: FormEvent<HTMLButtonElement>) => {
         event.preventDefault(); // prevent default form submitting
         addHabit(newHabit);
+        setNewHabit("");
     };
 
     return (
         <form>
+            <label htmlFor="input">Insert new habit here</label>
             <input type="text" value={newHabit} onChange={handleChange}/>
             <button type="submit" onClick={handleSubmit}>Add Habit</button>
         </form>

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0f5996-af1b-47c3-8d6d-efc54ab18e04" name="Default Changelist" comment="Setup handler for change in the text input">
+    <list default="true" id="ef0f5996-af1b-47c3-8d6d-efc54ab18e04" name="Default Changelist" comment="Implemented basic styling">
+      <change afterPath="$PROJECT_DIR$/src/HabitMockData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddHabitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddHabitForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddHabitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddHabitForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HabitItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HabitItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HabitList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HabitList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,7 +54,12 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/models" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -96,7 +107,7 @@
       <workItem from="1615024981588" duration="2987000" />
       <workItem from="1615029242051" duration="90000" />
       <workItem from="1615029367765" duration="9866000" />
-      <workItem from="1615190721137" duration="4199000" />
+      <workItem from="1615190721137" duration="9444000" />
     </task>
     <task id="LOCAL-00001" summary="Setup React with TypeScript">
       <created>1615029144295</created>
@@ -147,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615194455156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Setup handler for submitting a new habit">
+      <created>1615195724015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615195724015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +192,8 @@
     <MESSAGE value="Implemented separate component for list of habits" />
     <MESSAGE value="Setup basic add habit form" />
     <MESSAGE value="Setup handler for change in the text input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup handler for change in the text input" />
+    <MESSAGE value="Setup handler for submitting a new habit" />
+    <MESSAGE value="Implemented basic styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic styling" />
   </component>
 </project>

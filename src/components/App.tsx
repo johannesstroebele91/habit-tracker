@@ -1,21 +1,9 @@
 import React, {useState} from 'react';
 import {HabitList} from "./HabitList";
 import {AddHabitForm} from "./AddHabitForm";
-
-const initialHabits: Array<Habit> = [
-    {
-        text: 'Walk the dog',
-        complete: false,
-    },
-    {
-        text: 'Walk the dog',
-        complete: true,
-    },
-    {
-        text: 'Walk the dog',
-        complete: false,
-    },
-];
+import Nav from "./Nav";
+import '../styles.css';
+import {initialHabits} from "../HabitMockData";
 
 const App: React.FC = () => {
 
@@ -34,17 +22,19 @@ const App: React.FC = () => {
         setHabits(newHabits);
     };
 
-    // Set a new habit
+    // Set a new habit and handling empty input for button submission
     const addHabit: AddHabit = newHabit => {
-        setHabits([...habits, {text: newHabit, complete: false}])
+        newHabit.trim() !== "" &&
+        setHabits([...habits, {text: newHabit, complete: false}]);
     };
 
     // Display components
     return (
-        <React.Fragment>
-            <HabitList habits={habits} toggleHabit={toggleHabit}/>
-            <AddHabitForm addHabit={addHabit} />
-        </React.Fragment>
+            <React.Fragment>
+                <Nav/>
+                <HabitList habits={habits} toggleHabit={toggleHabit}/>
+                <AddHabitForm addHabit={addHabit}/>
+            </React.Fragment>
     );
 };
 
