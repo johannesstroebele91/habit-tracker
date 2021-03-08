@@ -3,4 +3,6 @@ type Habit = {
     complete: boolean;
 }
 
-type ToggleHabit =  (selectedHabit: Habit) => void;
+type ToggleHabit = (selectedHabit: Habit) => void;
+
+type AddHabit = (newHabit: string) => void;

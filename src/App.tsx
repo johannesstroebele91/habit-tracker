@@ -18,8 +18,9 @@ const initialHabits: Array<Habit> = [
 ];
 
 const App: React.FC = () => {
-    const [habits, setHabits] = useState(initialHabits);
 
+    // Toggle state of checkboxes
+    const [habits, setHabits] = useState(initialHabits);
     const toggleHabit: ToggleHabit = selectedHabit => {
         const newHabits = habits.map(habit => {
             if (habit === selectedHabit) {
@@ -32,10 +33,17 @@ const App: React.FC = () => {
         });
         setHabits(newHabits);
     };
+
+    // Set a new habit
+    const addHabit: AddHabit = newHabit => {
+        setHabits([...habits, {text: newHabit, complete: false}])
+    };
+
+    // Display components
     return (
         <React.Fragment>
             <HabitList habits={habits} toggleHabit={toggleHabit}/>
-            <AddHabitForm/>
+            <AddHabitForm addHabit={addHabit} />
         </React.Fragment>
     );
 };
